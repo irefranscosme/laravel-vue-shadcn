@@ -6,15 +6,15 @@ Our SPA solution simplifies the setup process for developers, seamlessly integra
 
 ### Login
 
-![App Screenshot](screenshots/login.png)
+![App Screenshot](screenshots/login.jpg)
 
 ### Register
 
-![App Screenshot](screenshots/register.png)
+![App Screenshot](screenshots/register.jpg)
 
 ### Dashboard / Home
 
-![App Screenshot](screenshots/home.png)
+![App Screenshot](screenshots/home.jpg)
 
 ## Setup
 
