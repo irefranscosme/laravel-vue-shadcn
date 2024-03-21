@@ -100,6 +100,16 @@ Our SPA solution simplifies the setup process for developers, seamlessly integra
 
     ![App Screenshot](screenshots/unauthenticated.png)
 
+## Recommendations
+
+**Collaboration | Pull Request**
+
+Let's work together to make our project code standardized and up-to-date, ensuring it's the best it can be. Your contributions and insights are invaluable in achieving this goal. Let's collaborate and make our project shine!
+
+-   Update code to standard.
+-   Create test for Laravel and Vue.
+-   Fix bugs.
+
 ## Note
 
 **Delete this file and folder if you want.**
