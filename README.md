@@ -2,6 +2,20 @@
 
 Our SPA solution simplifies the setup process for developers, seamlessly integrating Laravel's Sanctum for authentication on the backend and Vue.js for dynamic frontend interactions. Shadcn enhances the user interface, aiding developers in resolving CORS and unauthorized access issues effortlessly. With this streamlined combination, developers can focus on building their applications without worrying about authentication complexities, ensuring a smooth and secure user experience from start to finish.
 
+## Overview
+
+### Login
+
+![App Screenshot](screenshots/login.png)
+
+### Register
+
+![App Screenshot](screenshots/register.png)
+
+### Dashboard / Home
+
+![App Screenshot](screenshots/home.png)
+
 ## Setup
 
 **Laravel**
@@ -43,7 +57,19 @@ Our SPA solution simplifies the setup process for developers, seamlessly integra
 
 ```
 
-## Laravel
+## Config
+
+### Laravel
+
+![App Screenshot](screenshots/env.png)
+
+### Axios
+
+![App Screenshot](screenshots/axios.png)
+
+## Information
+
+### Laravel
 
 **Implements**
 
@@ -55,11 +81,7 @@ Our SPA solution simplifies the setup process for developers, seamlessly integra
 
 -   CORS Problems
 
-### Solutions
-
-**CORS Problems**
-
--   Ensure that you add your routes within the specified path to allow your SPA for AJAX Request.
+    Ensure that you add your routes within the specified path to allow your SPA for AJAX Request.
 
     ![App Screenshot](screenshots/cors.png)
 
@@ -115,6 +137,7 @@ Let's work together to make our project code standardized and up-to-date, ensuri
 -   Update code to standard.
 -   Create test for Laravel and Vue.
 -   Fix bugs.
+-   Update UI/UX
 
 ## Note
 
