@@ -94,11 +94,17 @@ Our SPA solution simplifies the setup process for developers, seamlessly integra
 
 **Problems**
 
--   CSRF-token mismatch
+-   CSRF-token mismatch (419)
 
     Ensure you call the sanctum/csrf-cookie endpoint because Laravel checks for this cookie to provide the XSRF token required for POST, PUT, and DELETE requests. You typically hit this endpoint once to obtain the cookie, often during login.
 
-    ![App Screenshot](screenshots/unauthenticated.png)
+    ![App Screenshot](screenshots/cors-mismatch.png)
+
+-   Unauthenticated (401)
+
+    Make sure you un-comment \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class on Http/Kernel.php
+
+    ![App Screenshot](screenshots/unauthorized.png)
 
 ## Recommendations
 
