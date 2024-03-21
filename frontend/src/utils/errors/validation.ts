@@ -1,5 +1,5 @@
 import { AxiosError } from 'axios';
-import { ResponseError } from '@/types';
+import { ResponseError } from '@/types/errors';
 
 export const validation = (err: AxiosError): Object => {
     if (!err.response) return {};

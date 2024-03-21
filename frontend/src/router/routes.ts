@@ -3,7 +3,6 @@ import { createWebHistory, createRouter } from 'vue-router';
 import Home from '../components/Home.vue';
 import Register from '../components/Register.vue';
 import Login from '../components/Login.vue';
-import axios from 'axios';
 
 const routes = [
     {
@@ -31,7 +30,7 @@ const router = createRouter({
     routes,
 });
 
-router.beforeEach((to, from, next) => {
+router.beforeEach((to, _, next) => {
     const isAuthenticated = localStorage.getItem('logged-in');
 
     // Prevent unauthenticated user from viewing protected paths.
